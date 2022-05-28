@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9998491e363242aa96c957ff9a47ded5" Name="Diagram1">
+        <EntityTypeShape EntityType="CiftlikModel.Cins" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.Hayvan" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.Kullanici" Width="1.5" PointX="8" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.Rol" Width="1.5" PointX="5.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.Stok" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.StokHareket" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.StokTur" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.SutUretim" Width="1.5" PointX="8.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CiftlikModel.Zaman" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CiftlikModel.FK_Hayvan_Cins" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_StokHareket_Hayvan" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_SutUretim_Hayvan" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_Kullanici_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_Stok_StokTur" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_StokHareket_Stok" ManuallyRouted="false" />
+        <AssociationConnector Association="CiftlikModel.FK_SutUretim_Zaman" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CiftlikModel.vKullanici" Width="1.5" PointX="10.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
